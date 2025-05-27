@@ -1,8 +1,8 @@
-module structural1;
+module structural_tb;
   reg a, b;
   wire out_and, out_or, out_nand, out_nor, out_xor, out_xnor, out_nota, out_notb;
 
-  structural1 dut (
+  structural dut (
     .a(a), .b(b),
     .out_and(out_and),
     .out_or(out_or),
